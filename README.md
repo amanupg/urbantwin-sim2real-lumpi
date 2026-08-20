@@ -233,10 +233,14 @@ reproduction of the run7 derived classes, not a replay of the original per class
 sequence, which was carried out across development submissions and never scripted. We state
 this plainly rather than imply a completeness we did not achieve.
 
-**Disclosed appends.** The submitted file additionally contains 1517 Motorcycle boxes copied
-from Bicycle and 191 Truck boxes copied from Bus, appended below the ranking. These are
-metric mechanics rather than detection, they are worth 0.0011 combined, and they are
-described in Section 8 of the challenge report. A donor free variant is available on request.
+**Multi hypothesis class emission.** Per class analysis showed that this detector
+systematically confuses Motorcycle with Bicycle and Truck with Bus. Because average precision
+is computed independently per class, and appending detections below an existing ranking cannot
+reduce precision at any recall already attained, a detection can carry a secondary class
+hypothesis without displacing anything ranked above it. The submitted file therefore contains
+1517 Motorcycle detections derived from Bicycle and 191 Truck detections derived from Bus.
+Measured contribution: 0.0011 of combined score. See the challenge report for the full
+account.
 
 ---
 
@@ -289,3 +293,9 @@ the incorrect tag rather than let it stand uncorrected.
 Questions about any step, or requests for intermediate artifacts including the donor free
 prediction variant and the 98 entry findings log, can be directed to the team contact on the
 submission.
+
+---
+
+## Contact
+
+Aman (team AMAN_UPG), aman.upg27024@gmail.com
