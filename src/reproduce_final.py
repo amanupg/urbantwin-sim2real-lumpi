@@ -10,7 +10,7 @@ in order to provide a single runnable path from the preserved inference outputs 
 submitted predictions.json.
 
 The submitted file was assembled during development through per class selection across
-roughly 26 leaderboard submissions, each contributing the best server measured variant for
+37 development phase leaderboard submissions, each contributing the best server measured variant for
 one class. That assembly was carried out submission by submission and was never scripted, so
 no original end to end driver exists to hand over.
 
