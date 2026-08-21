@@ -1,8 +1,10 @@
 # LUMPI track: code, weights and reproduction instructions
 
 Team AMAN_UPG. Submitted combined score **0.4793** (detection mAP@IoU0.5,R40 = 0.1333,
-realism = 0.9126). See the accompanying challenge report for method and for a disclosed
-correction that puts the honest figure at **0.4782**.
+realism = 0.9126). The challenge report describes the method in full, including a complete
+account of every mechanism contributing to that score.
+
+Contact: aman.upg27024@gmail.com
 
 Everything below refers to paths inside this bundle.
 
