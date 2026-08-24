@@ -4,12 +4,15 @@ Team AMAN_UPG. Submitted combined score **0.4793** (detection mAP@IoU0.5,R40 = 0
 realism = 0.9126). The challenge report describes the method in full, including a complete
 account of every mechanism contributing to that score.
 
+Challenge report: [`report/AMAN_UPG_LUMPI_challenge_report.pdf`](report/AMAN_UPG_LUMPI_challenge_report.pdf)
+
 Contact: aman.upg27024@gmail.com
 
 Everything below refers to paths inside this bundle.
 
 ```
 README.md                  this file
+report/                    challenge report, PDF and LaTeX source
 src/                       all code, original modules unmodified
 scripts/                   training driver as run
 checkpoints/               trained weights + exact training configs
