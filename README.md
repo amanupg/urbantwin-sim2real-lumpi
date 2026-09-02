@@ -251,7 +251,11 @@ account.
 
 ## 6. Realism frames
 
-The 50 submitted synthetic frames are in `artifacts/realism_frames_preaffine/`.
+The 50 **pre affine** synthetic frames are in `artifacts/realism_frames_preaffine/`.
+They are the input to the moment alignment described below, not the frames that were
+submitted. The submitted frames are the `synthetic/` entries of
+`tracks/lumpi/submissions/FINAL_lumpi.zip`, which the alignment step reproduces byte for
+byte. Verified: 0 of the 50 pre affine frames match the submitted set.
 
 **Generation** (`src/realism_emd_opt.py lumpi [n_cand]`): greedy frame selection
 scored by sliced Wasserstein distance against a real target density, then iterated importance
